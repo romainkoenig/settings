@@ -1,0 +1,15 @@
+'.platform-darwin':
+  'ctrl-0': 'tree-view:toggle-focus'
+
+'.editor':
+  'f12': 'atom-beautify:beautify-editor',
+
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-q': 'editor:toggle-line-comments'
+  'alt-down': 'editor:duplicate-lines'
+
+'.workspace':
+  'cmd-g': 'git-grep:grep'
+
+'.platform-win32, .platform-linux':
+  'ctrl-)': 'tree-view:toggle-focus'
