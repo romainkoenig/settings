@@ -8,5 +8,5 @@
 '.platform-win32, .platform-linux':
   'ctrl-)': 'tree-view:toggle-focus'
 
-'.workspace':
-  'ctrl-k ctrl-g': 'git-grep:grep'
+'atom-workspace':
+  'ctrl-k ctrl-g': 'fuzzy-grep:toggle'
